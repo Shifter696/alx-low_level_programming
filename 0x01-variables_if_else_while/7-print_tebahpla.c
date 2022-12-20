@@ -8,6 +8,14 @@
 
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n");
+	char ch = 'z';
+
+	while (ch >= 'a')
+	{
+		putchar(ch);
+		--ch;
+	}
+	putchar('\n');
+
 	return (0);
 }

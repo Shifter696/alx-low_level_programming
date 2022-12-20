@@ -8,6 +8,14 @@
 
 int main(void)
 {
-	printf("with proper grammar, but the outcome is a piece of art,\n");
+	int digit = 0;
+
+	while (digit <= 9)
+	{
+		printf("%i", digit);
+		++digit;
+	}
+	printf("\n");
+
 	return (0);
 }
