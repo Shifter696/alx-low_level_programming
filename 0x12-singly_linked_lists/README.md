@@ -1,1 +1,1 @@
-0x12. C - Singly Linked Lists.
+singly linksy
